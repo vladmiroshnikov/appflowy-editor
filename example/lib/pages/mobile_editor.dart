@@ -76,9 +76,6 @@ class _MobileEditorState extends State<MobileEditor> {
                   onPaste: () => pasteCommand.execute(editorState),
                   onSelectAll: () => selectAllCommand.execute(editorState),
                   onLiveTextInput: null,
-                  onLookUp: null,
-                  onSearchWeb: null,
-                  onShare: null,
                   anchors: TextSelectionToolbarAnchors(
                     primaryAnchor: anchor,
                   ),
