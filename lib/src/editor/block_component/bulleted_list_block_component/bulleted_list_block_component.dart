@@ -225,7 +225,7 @@ class _BulletedListIcon extends StatelessWidget {
         child: Text(
           icon,
           style: textStyle,
-          textScaler: const TextScaler.linear(0.5),
+          textScaleFactor: 0.5,
         ),
       ),
     );
